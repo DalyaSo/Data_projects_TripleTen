@@ -34,11 +34,12 @@ Key visualizations include:
 - Use cleaned and enriched data for smarter inventory and pricing decisions.
 
 ## 📂 Project Files
+- 📄 [Full Analysis Project](https://docs.google.com/spreadsheets/d/1rvzgT5BtuRuvsHVPwv9pjAh0A6YOqFmXlzMv-naM-SM/edit?usp=sharing)
 - 📊 [Full Chart Analysis PDF](./Rental%20Market%20Analysis%20-%20All%20Charts%20(1).pdf)
 - 📑 [Project Summary](./Rental%20Market%20Analysis%20-%20Start%20Here.pdf)
 
 ## Connect With Me
-- 📄 [Resume](#)
+- 📄 [Resume](https://docs.google.com/document/d/1__BjBZNdEdzZwglkZYnPurL69lSgW1B4-WJvTYCPRB4/edit?usp=sharing)
 - 💼 [LinkedIn](https://www.linkedin.com/in/dalyasohl)
 - 📊 [Tableau Portfolio](https://public.tableau.com/app/profile/dalya.s/vizzes)
 - 📚 [Kaggle Profile](https://www.kaggle.com/dalyas)
