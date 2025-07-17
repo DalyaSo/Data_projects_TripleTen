@@ -35,6 +35,7 @@ Key visualizations include:
 
 ## 📂 Project Files
 - 📄 [Full Analysis Project](https://docs.google.com/spreadsheets/d/1rvzgT5BtuRuvsHVPwv9pjAh0A6YOqFmXlzMv-naM-SM/edit?usp=sharing)
+- 📑 [Original Raw Data](https://docs.google.com/spreadsheets/d/1YnPxdlJdKRI60PHPeMWyUZ1Urn4qT1rsxiyjUsdThSM/edit?usp=sharing)
 - 📊 [Full Chart Analysis PDF](./Rental%20Market%20Analysis%20-%20All%20Charts%20(1).pdf)
 - 📑 [Project Summary](./Rental%20Market%20Analysis%20-%20Start%20Here.pdf)
 
