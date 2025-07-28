@@ -29,6 +29,7 @@ This business intelligence project investigates the root causes of product retur
 
 ## Visuals
 📊 [**View Full Tableau Dashboard & Story**](https://public.tableau.com/app/profile/dalya.s/viz/ReturnCauseAnalysisStory/ReturnStory)
+> **Note:** Tableau workbook not available for download due to Tableau Public restrictions. Screenshots and live dashboard are provided for reference.
 
 The interactive dashboard includes:
 - Bar chart of return rate by category
