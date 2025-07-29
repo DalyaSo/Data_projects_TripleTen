@@ -70,7 +70,7 @@ The dashboard includes:
 - 📄 `zomato_joined_data.csv` — Final cleaned & joined dataset (Users + Orders)
 - 📊 [Dashboard on Tableau Public](https://public.tableau.com/app/profile/dalya.s/viz/ZomatoCustomerSegmentationDashboard/Dashboard2#1)
 - 🖼️ `/screenshots/` — (coming soon)
-- 📑 `/presentation.pdf` — Final slide deck summarizing insights and recommendations
+- 📑 `Zomato_Project_Slide_Presentation.pdf` — Final slide deck summarizing insights and recommendations
 - 🧾 `README.md` — This summary file
 
 ## Connect With Me
