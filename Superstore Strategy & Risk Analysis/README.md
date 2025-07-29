@@ -76,7 +76,7 @@ The Superstore is at risk of bankruptcy. As a business intelligence consultant, 
 - 📊 [Tableau Dashboard (3-part suite)](https://public.tableau.com/app/profile/dalya.s/viz/SuperStoreAnalysis_17497643785760/ReturnsandRiskAnalysis)
 - 📄 `superstore_cleaned.csv` — Final dataset (Orders + Returns joined)
 - 🖼️ `/screenshots/` — Dashboard screenshots:
-  - `Profit_Strategy_Dashboard.jpg`
+  - `profit_strategy_dashboard.jpg`
   - `Advertising Strategy.jpg`
   - `Returns and Risk Analysis.jpg`
 - 🧾 `README.md` — This summary file
