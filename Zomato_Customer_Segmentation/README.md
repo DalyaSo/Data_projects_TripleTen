@@ -60,6 +60,15 @@ The dashboard includes:
 
 > *Note: If the dashboard is slow to load, try clicking “Full View” or refreshing Tableau Public.*
 
+## 📸 Dashboard Screenshots
+
+- 📄 [Full Dashboard View](./Zomato_Project_Dashboard.pdf)  
+  Overview of customer segmentation, demographic filters, and RFM breakdown
+
+- 📄 [Weekday Sales View](./Zomato_Dashboard_Weekday_Sales_Screenshot.pdf)  
+  Supplemental insight showing weekday sales distribution (left off main dashboard)
+
+
 ## Strategic Recommendations
 - Launch loyalty programs for **High-Frequency, Mid-Tier customers**
 - Offer re-engagement campaigns for **low-recency, low-spend segments**
@@ -69,8 +78,9 @@ The dashboard includes:
 ## 📂 Project Files
 - 📄 `zomato_joined_data.csv` — Final cleaned & joined dataset (Users + Orders)
 - 📊 [Dashboard on Tableau Public](https://public.tableau.com/app/profile/dalya.s/viz/ZomatoCustomerSegmentationDashboard/Dashboard2#1)
-- 🖼️ `/screenshots/` — (coming soon)
 - 📑 [Zomato_Project_Slide_Presentation.pdf](./Zomato_Project_Slide_Presentation.pdf) — Final slide deck summarizing insights and recommendations
+- 📄 [Zomato_Project_Dashboard.pdf](./Zomato_Project_Dashboard.pdf) — Full dashboard screenshot
+- 📄 [Zomato_Dashboard_Weekday_Sales_Screenshot.pdf](./Zomato_Dashboard_Weekday_Sales_Screenshot.pdf) — Additional dashboard sheet
 - 🧾 `README.md` — This summary file
 
 ## Connect With Me
