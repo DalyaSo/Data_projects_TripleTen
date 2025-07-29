@@ -14,6 +14,11 @@ This business intelligence project investigates the root causes of product retur
 - **Excel**: Data cleaning, merging Orders and Returns tables, calculated return flags
 - **Data Modeling**: Left join of Orders + Returns on `Order ID`, added binary return indicator
 
+## 🧹 Data Preparation
+
+For a detailed breakdown of how the dataset was cleaned, joined, and transformed, see the full [Data Preparation Guide](./data_preparation.md).
+
+
 ### Key Calculated Fields:
 - `Return Flag`: `IF ISNULL([Returned]) THEN 0 ELSE 1 END`
 - `Return Rate`: `AVG([Return Flag])`
