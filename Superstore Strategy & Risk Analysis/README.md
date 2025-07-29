@@ -77,7 +77,7 @@ The Superstore is at risk of bankruptcy. As a business intelligence consultant, 
 - 📄 `superstore_cleaned.csv` — Final dataset (Orders + Returns joined)
 - 🖼️ `/screenshots/` — Dashboard screenshots:
   - ![Profit Strategy](./Profit_Strategy_Dashboard.jpg)
-  - `Advertising Strategy.jpg`
+  - ![Advertising Strategy](./Advertising_Strategy.jpg)
   - `Returns and Risk Analysis.jpg`
 - 🧾 `README.md` — This summary file
 
