@@ -11,14 +11,15 @@ The goal was to answer 10 business questions using PostgreSQL, focusing on compa
 ## 🗂 Dataset & Schema
 The case study is based on a Crunchbase-style database that includes:
 
-- **company** – startup details (funding, status, location, category)  
-- **funding_round** – investment round data (amount, round type, dates)  
-- **fund** – venture fund information  
-- **acquisition** – company acquisition data  
-- **people** – founders, employees, and investors  
+- **company** – startup details (funding, status, country, category)  
+- **funding_round** – round metadata (amount, round type, dates)
+- **investment** — link table: a **fund**’s participation in a **funding_round** (with company_id)    
+- **fund** – venture fund profile (invested_companies, investment_rounds, etc.)  
+- **acquisition** – acquisition deals (price, terms, dates) 
+- **people** – individuals (founders/employees) tied to a company 
 - **education** – educational background of individuals  
 
-![Database ERD](screenshots/schema.png) <!-- optional if you include schema image -->
+![Database Schema](schema.png)
 
 ---
 
@@ -41,12 +42,15 @@ See the full SQL solutions in [`queries.sql`](queries.sql).
 ---
 
 ## 💡 Key Insights
-- Thousands of companies in the dataset ended up **closed**, providing context for startup risk.  
-- **US news startups** show wide funding variation, with a few massively funded players.  
-- **Cash acquisitions** peaked in the post-recession period (2011–2013).  
-- Countries like **USA, China, UK, and India** dominate total venture capital raised.  
-- Fund activity analysis highlights differences between broad-network investors and niche specialists.  
-- Education analysis showed how the **average number of degrees per employee** differs between failed and surviving startups — sparking debate on whether education correlates with success.  
+- **Failure appears rare in this dataset:** Only **2,584 companies (≈1.3%)** were marked as closed, while ~194K were still operating or acquired. This contrasts with real-world startup failure rates and suggests the dataset may underreport closures.  
+- **US news startups show extreme variation in funding:** The top firms raised **$622M, $250M, and $160M**, while the majority raised under $10M — highlighting a sharp skew in capital distribution.  
+- **Cash acquisitions totaled $137.8B** between 2011–2013, showing the scale of post-recession dealmaking.  
+- **Influencer queries can pinpoint niche groups:** Searches surfaced people with “Silver” in their Twitter handle and finance-related influencers like Gregory Kim (`gmoney75`).  
+- **Geographic analysis underscores US dominance:** The **USA ($310B)** raised far more than the next countries — the UK (~$17.7B), China (~$10.7B), and Canada (~$9.9B).  
+- **Funding round volatility days stood out** where both small ($28K–$40K) and massive ($200M–$448M) rounds occurred, suggesting unusual investor activity on those dates.  
+- **Fund activity categories reveal strong contrasts:** Most funds are *low activity*, while top-tier firms like **Greylock Partners** fall into *high activity* with 196+ invested companies.  
+- **Fund strategies diverge sharply:** *High activity funds* averaged **252 rounds**, compared to **51** for mid-tier funds and just **2** for low-activity funds.  
+- **Employee education vs. success:** Employees at failed one-round startups averaged **1.23 degrees per person**. This provides a data point for the debate, though the small failure sample size limits definitive conclusions.
 
 ---
 
