@@ -30,7 +30,7 @@ The dataset consists of four relational tables:
 - **neighborhoods** — neighborhood IDs mapped to names (e.g., Loop, O’Hare)  
 - **weather_records** — timestamped weather descriptions and temperatures  
 
-![Schema Diagram](schema_diagram.png)
+![Schema Diagram](Zuber_Sql_Schema.png)
 
 ---
 
