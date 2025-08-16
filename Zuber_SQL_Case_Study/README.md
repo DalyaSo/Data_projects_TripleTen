@@ -47,13 +47,12 @@ All queries are written in **PostgreSQL-compatible SQL** and include comments ex
 ---
 
 ## 💡 Key Insights
-- **Company activity:** Ride volumes vary significantly across companies, with major players like *Flash Cab* dominating November 2017 trips.  
-- **Color-branded companies:** “Yellow” and “Blue” companies completed a sizable portion of rides in early November.  
-- **Flash Cab vs. Taxi Affiliation Services:** Together, these two companies accounted for a large share of rides compared to the “Other” category.  
-- **Weather classification:** Records were flagged as *Good* (clear) or *Bad* (rain/storm), enabling weather-based comparisons.  
-- **Weather impact on Loop→O’Hare trips:** Average ride durations were noticeably longer on rainy Saturdays compared to clear days, suggesting adverse conditions slow travel.  
-
-*(Exact values omitted here for brevity — they can be explored directly in the SQL queries.)*
+- **Nov 15–16 leader:** *Flash Cab* completed **19,558** rides, followed by *Taxi Affiliation Services* (**11,422**) and *Medallion Leasin* (**10,367**); *Yellow Cab* had **9,888**.
+- **“Yellow/Blue” companies (Nov 1–7):** Combined, these brands completed **87,320** rides — led by **Yellow Cab (33,668)** and **Taxi Affiliation Service Yellow (29,213)**; *Blue Ribbon Taxi Association Inc.* had **17,675**, *Blue Diamond* **6,764**.
+- **November market split:** Out of **437,438** total rides, **Other** companies handled **335,771** (**~76.8%**), *Flash Cab* **64,084** (**~14.7%**), and *Taxi Affiliation Services* **37,583** (**~8.6%**).
+- **Neighborhood IDs confirmed:** **Loop = 50**, **O’Hare = 63** (ensures reproducible filtering in trip queries).
+- **Weather labeling:** Most hourly records in November were tagged **Good** (clear), with **Bad** (rain/storm) appearing intermittently — enabling weather-based comparisons.
+- **Loop → O’Hare on Saturdays:** Sample results show some of the **longest durations under Bad weather** (~2,969–3,120 sec ≈ 49–52 min), while **Good** conditions vary widely (e.g., 1,260–4,800 sec). Suggests weather can increase travel time; aggregating by weather group would quantify the effect.
 
 ---
 
@@ -61,7 +60,8 @@ All queries are written in **PostgreSQL-compatible SQL** and include comments ex
 - **PostgreSQL** for querying  
 - Joins across multiple tables (`JOIN`)  
 - Conditional logic with `CASE`  
-- Date/time extraction with `EXTRACT`  
-- Aggregations (`COUNT`, `AVG`) and filtering  
+- Date/time extraction 
+- Aggregations and filtering
+- CTE  
 
 ---
