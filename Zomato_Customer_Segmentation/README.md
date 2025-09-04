@@ -50,7 +50,7 @@ This project explores customer purchasing behavior and segmentation for Zomato, 
 
 
 ## 📊 Dashboard
-🔗 [**View the Full Tableau Dashboard**](https://public.tableau.com/views/Final_Project_17551981797320/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+🔗 [**View the Full Tableau Dashboard**](https://public.tableau.com/app/profile/dalya.s/viz/CustomerSegmentationBehavioralAnalysisDashboard/Dashboard2)
 The dashboard includes:
 - RFM scoring distribution
 - Customer count by tier and spend bucket
@@ -61,7 +61,7 @@ The dashboard includes:
 
 ## 📸 Dashboard Screenshots
 
-- 📄 [Full Dashboard View](./Zomato_Project_Dashboard.pdf)  
+- 📄 ![Full Dashboard View](./Zomato_KPI_Dashboard.png)  
   Overview of customer segmentation, demographic filters, and RFM breakdown
 
 - 📄 [Weekday Sales View](./Zomato_Dashboard_Weekday_Sales_Screenshot.pdf)  
