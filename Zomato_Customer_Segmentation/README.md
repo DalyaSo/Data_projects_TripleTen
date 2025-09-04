@@ -77,8 +77,8 @@ The dashboard includes:
 ## 📂 Project Files
 - 📄 `zomato_joined_data.csv` — Final cleaned & joined dataset (Users + Orders)
 - 📊 [Dashboard on Tableau Public](https://public.tableau.com/app/profile/dalya.s/viz/ZomatoCustomerSegmentationDashboard/Dashboard2#1)
-- 📑 [Zomato_Project_Slide_Presentation.pdf](./Zomato_Project_Slide_Presentation.pdf) — Final slide deck summarizing insights and recommendations
-- 📄 [Zomato_Project_Dashboard.pdf](./Zomato_Project_Dashboard.pdf) — Full dashboard screenshot
+- 📑 [Zomato_Project_Slide_Presentation.pdf](./Zomato_Customer_Segmentation_Slide_Presentation.pdf) — Final slide deck summarizing insights and recommendations
+- 📄 [Zomato_Project_Dashboard.png](./Zomato_KPI_Dashboard.png) — Full dashboard screenshot
 - 📄 [Zomato_Dashboard_Weekday_Sales_Screenshot.pdf](./Zomato_Dashboard_Weekday_Sales_Screenshot.pdf) — Additional dashboard sheet
 - 🧾 `README.md` — This summary file
 
